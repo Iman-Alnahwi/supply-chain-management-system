@@ -58,6 +58,15 @@ A desktop application developed in Java to streamline supply chain operations by
 
 ### Order Management
 ![Order Management](images/order-management.png)
+
+### Query & Search
+![Query & Search](images/query-search.png)
+
+### Text Report
+![Text Report](images/text-report.png)
+
+### Binary Report
+![Binary Report](images/binary-report.png)
 ---
 
 ## 🔮 Future Improvements
