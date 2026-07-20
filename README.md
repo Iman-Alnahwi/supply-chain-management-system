@@ -42,32 +42,39 @@ A desktop application developed in Java to streamline supply chain operations by
 
 ---
 
-## 📸 Screenshots
+## 📸 System Screenshots & Interface Details
 
 ### Login Window
 ![Login Window](images/login-window.png)
+*The entry point where users type their credentials, containing a standard text box and a secure password box[cite: 1]. The system instantly alerts the user with an on-screen status message if the login data is incorrect[cite: 1].*
 
 ### Dashboard
 ![Dashboard](images/dashboard.png)
+*The main menu displaying the logged-in user's name and password[cite: 1]. It features automated count cards that summarize system data sizes and displays all active user accounts in a clean table view[cite: 1].*
 
 ### Supplier Management
 ![Supplier Management](images/supplier-management.png)
+*A data-entry workspace managed entirely by the JPA entity layer[cite: 1]. Clicking on any supplier row automatically loads its vendor information back into the form fields for fast editing or deletion[cite: 1].*
 
 ### Product Management
 ![Product Management](images/product-management.png)
+*Manages product listings using interactive dropdown combo boxes to select item categories and suppliers[cite: 1]. It includes a smart "Restore" action button to undo accidental inventory row deletions instantly[cite: 1].*
 
 ### Order Management
 ![Order Management](images/order-management.png)
+*The primary master-detail interface[cite: 1]. Selecting an order row from the top table (master) automatically updates the bottom table (detail) to display the explicit line items attached to that specific order[cite: 1].*
 
 ### Query & Search
 ![Query & Search](images/query-search.png)
+*An analytics screen where users can search orders using component lists, status menus, and date boundaries[cite: 1]. It features dedicated buttons to save or load these search results to external text or binary backup files.*
 
 ### Text Report
 ![Text Report](images/text-report.png)
+*This feature utilizes Java's File API (`FileWriter`/`BufferedWriter`) to write and export human-readable, plain-text order reports complete with accurate timestamps and financial totals[cite: 1].*
 
 ### Binary Report
 ![Binary Report](images/binary-report.png)
----
+*This feature uses object serialization streams (`ObjectOutputStream`) to save the queried order list directly to a `.dat` backup file, allowing the exact data to be safely restored into system memory later[cite: 1].*
 
 ## 🔮 Future Improvements
 
