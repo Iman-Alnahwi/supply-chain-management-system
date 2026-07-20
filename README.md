@@ -45,20 +45,19 @@ A desktop application developed in Java to streamline supply chain operations by
 ## 📸 Screenshots
 
 ### Login Window
-*(Image coming soon)*
+![Login Window](images/login-window.png)
 
 ### Dashboard
-*(Image coming soon)*
+![Dashboard](images/dashboard.png)
 
 ### Supplier Management
-*(Image coming soon)*
+![Supplier Management](images/supplier-management.png)
 
 ### Product Management
-*(Image coming soon)*
+![Product Management](images/product-management.png)
 
 ### Order Management
-*(Image coming soon)*
-
+![Order Management](images/order-management.png)
 ---
 
 ## 🔮 Future Improvements
